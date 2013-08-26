@@ -17,19 +17,16 @@ SAS instructions
 1. Start SAS 9.3.
 2. Paste the following into the editor window.
 
-    DATA case0101;
-
-      INFILE 'U:/401A/sleuth3csv/case0101.csv' DSD FIRSTOBS=2;
-
-      INPUT score treatment $;
+{% highlight bash %}
+DATA case0101;
+  INFILE 'U:/401A/sleuth3csv/case0101.csv' DSD FIRSTOBS=2;
+  INPUT score treatment $;
     
-    PROC MEANS DATA=case0101;
-
-      VAR score;
-
-      BY treatment;
-
-      RUN;
+PROC MEANS DATA=case0101;
+  VAR score;
+  BY treatment;
+  RUN;
+{% endhighlight %}
 
 3. Click on the Run button (looks like a person running).
 
