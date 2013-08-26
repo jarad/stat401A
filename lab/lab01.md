@@ -27,7 +27,6 @@ PROC MEANS DATA=case0101;
   BY treatment;
   RUN;
 {% endhighlight %}
-
 3. Click on the Run button (looks like a person running).
 
 R instructions
@@ -37,12 +36,11 @@ R instructions
 2. File > New Script.
 3. Paste the following into the editor window.
 
+{% highlight bash %}
     case0101 = read.csv("U:401A/sleuth3csv/case0101.csv")
-
     names(case0101) = tolower(names(case0101))
-
     by(case0101$score, case0101$treatment, summary)
-
+{% endhighlight %}
 4. Edit > Run all.  
 
 
