@@ -11,7 +11,7 @@ markdown: kramdown
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Stat401A - Statsitical Methods for Research Workers
+title : Stat401A - Statistical Methods for Research Workers
 tagline: Course materials and discussions
 author :
   name : Jarad Niemi
