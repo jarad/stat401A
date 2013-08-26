@@ -16,7 +16,6 @@ SAS instructions
 ---
 1. Start SAS 9.3.
 2. Paste the following into the editor window.
-
 {% highlight bash %}
 DATA case0101;
   INFILE 'U:/401A/sleuth3csv/case0101.csv' DSD FIRSTOBS=2;
@@ -35,7 +34,6 @@ R instructions
 1. Start R.
 2. File > New Script.
 3. Paste the following into the editor window.
-
 {% highlight bash %}
     case0101 = read.csv("U:401A/sleuth3csv/case0101.csv")
     names(case0101) = tolower(names(case0101))
