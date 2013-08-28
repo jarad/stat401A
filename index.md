@@ -21,7 +21,7 @@ The textbook for the course is The Statistical Sleuth (3rd edition) by Ramsey an
 ## Relevant course pages
 
 - [Lab](lab)
-- [Links](links)
+- [Links](links.html)
 
 
 ## Latest Posts

@@ -11,13 +11,13 @@ On this page I hope to link to anything that will be relevant for STAT 401A spli
 - [Course](http://jarad.github.com/stat401a)
 - [Book](http://www.science.oregonstate.edu/~schafer/Sleuth/)
 - [Videos](http://www.youtube.com/jaradniemi)
+- RSS feeds
+  - [Course posts](http://jarad.github.com/stat401a/atom.xml)
+  - [Course comments](http://stat401a.disqus.com/latest.rss)
+
 
 ### Other resources
 - [Handbook of Biological Statistics](http://udel.edu/~mcdonald/statintro.html)
-
-### RSS feeds
-- [Course posts](http://jarad.github.com/stat401a/atom.xml)
-- [Course comments](http://stat401a.disqus.com/latest.rss)
 
 ### SAS
 - [ISU Access](http://www.stat.iastate.edu/resources/software/sas/)
