@@ -9,7 +9,12 @@ tagline: Statistical Methods for Research Workers
 Instructor: [Jarad Niemi](http://jarad.me). TA: Fan Cao. This website is designed to hosts video lectures, labs, and post course discussions (questions and answers); see the [Archive](archive.html) page for a complete list. This course meets
 
 - MWF 8-8:50 Largomarcino W272
-- M 2:10-4 Gilman 2272 ([Lab](lab))
+- M 2:10-4 Snedecor 1105 ([Lab](lab))
+
+Office hours are
+
+- Instructor: MWF 9-10:30 @ Snedecor 2208
+- TA: R 3-5 @ Snedecor 2215
 
 The textbook for the course is The Statistical Sleuth (3rd edition) by Ramsey and Shafer.
 
