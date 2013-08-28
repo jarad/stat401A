@@ -18,6 +18,12 @@ Office hours are
 
 The textbook for the course is The Statistical Sleuth (3rd edition) by Ramsey and Shafer.
 
+## Relevant course pages
+
+- [Lab](lab)
+- [Links](links)
+
+
 ## Latest Posts
 
 <ul class="posts">
