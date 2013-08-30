@@ -6,7 +6,9 @@ tagline: Statistical Methods for Research Workers
 {% include JB/setup %}
 
 <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Bayes_icon.svg/200px-Bayes_icon.svg.png" align="right" />
-Instructor: [Jarad Niemi](http://jarad.me). TA: Fan Cao. This website is designed to hosts video lectures, labs, and post course discussions (questions and answers); see the [Archive](archive.html) page for a complete list. This course meets
+Instructor: [Jarad Niemi](http://jarad.me). TA: Fan Cao. This website is designed to hosts video lectures, labs, and post course discussions (questions and answers). 
+
+This course meets
 
 - MWF 8-8:50 Largomarcino W272
 - M 2:10-4 Snedecor 1105 
@@ -20,10 +22,10 @@ The textbook for the course is The Statistical Sleuth (3rd edition) by Ramsey an
 
 ## Relevant course pages
 
-- [Lab](lab)
-- [Links](links.html)
-- [Homework](homework.html)
-- [Posts](../categories.html#401a-ref)
+- [Lab]({{BASE_PATH}}/lab)
+- [Links]({{BASE_PATH}}/links.html)
+- [Homework]({{BASE_PATH}}/homework.html)
+- [Posts](http://jarad.me/categories.html#401a-ref)
 
 ## Course Description
 
