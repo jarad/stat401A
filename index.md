@@ -9,7 +9,7 @@ tagline: Statistical Methods for Research Workers
 Instructor: [Jarad Niemi](http://jarad.me). TA: Fan Cao. This website is designed to hosts video lectures, labs, and post course discussions (questions and answers); see the [Archive](archive.html) page for a complete list. This course meets
 
 - MWF 8-8:50 Largomarcino W272
-- M 2:10-4 Snedecor 1105 ([Lab](lab))
+- M 2:10-4 Snedecor 1105 
 
 Office hours are
 
