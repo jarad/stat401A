@@ -13,7 +13,6 @@ The Data Problems focus on understanding what these quantities mean in the conte
 These problems typically require a more extensive answer, e.g. "a brief statistical report". 
 Solutions for many odd numbered problems in the Computational Exercises and Data Problems sections can be found in the <a href="http://www.amazon.com/gp/product/1133491332/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1133491332&linkCode=as2&tag=jarnieassprod-20">Student Solutions Manual</a><img src="http://ir-na.amazon-adsystem.com/e/ir?t=jarnieassprod-20&l=as2&o=1&a=1133491332" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />. 
 
-
 ### Assigned homework (always due at 8am in class):
 
 The code below is CC.PPzz where 
@@ -23,6 +22,9 @@ The code below is CC.PPzz where
 - zz refers to the subparts of the problem (if there is no zz, then do all parts of the problem).
 
 For example 9.7a-c refers to chapter 9, problem 7, parts a through c. 
+
+For those using the 2nd edition of the book, scans of the 3rd edition problems can be found here: [Ch1](/homework/ch1.pdf).
+
 
 - HW1 (due 6 Sep): 1.17, 1.18, 1.19, 1.20
 
