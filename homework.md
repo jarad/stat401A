@@ -23,7 +23,7 @@ The code below is CC.PPzz where
 
 For example 9.7a-c refers to chapter 9, problem 7, parts a through c. 
 
-For those using the 2nd edition of the book, scans of the 3rd edition problems can be found here: [Ch1](/homework/ch1.pdf).
+For those using the 2nd edition of the book, scans of the 3rd edition problems can be found here: [Ch1](/401A/homework/ch1.pdf).
 
 
 - HW1 (due 6 Sep): 1.17, 1.18, 1.19, 1.20
