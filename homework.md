@@ -23,7 +23,7 @@ The code below is CC.PPzz where
 
 For example 9.7a-c refers to chapter 9, problem 7, parts a through c. 
 
-For those using the 2nd edition of the book, scans of the 3rd edition problems can be found here for chapters [1](/stat401A/homework/ch1.pdf).
+For those using the 2nd edition of the book, scans of the 3rd edition problems can be found here for chapters [1](/stat401A/homework/ch1.pdf), [2](/stat401A/homework/ch2.pdf), [3](/stat401A/homework/ch3.pdf), [4](/stat401A/homework/ch4.pdf), [5](/stat401A/homework/ch5.pdf), [6](/stat401A/homework/ch6.pdf), [7](/stat401A/homework/ch7.pdf), [8](/stat401A/homework/ch8.pdf), [9](/stat401A/homework/ch9.pdf), [10](/stat401A/homework/ch10.pdf), [11](/stat401A/homework/ch11.pdf), [12](/stat401A/homework/ch12.pdf), [13](/stat401A/homework/ch13.pdf), [20](/stat401A/homework/ch20.pdf), [21](/stat401A/homework/ch21.pdf), and [22](/stat401A/homework/ch22.pdf).
 
 
 - HW1 (due 6 Sep): 1.17, 1.18, 1.19, 1.20
