@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Welcome to Stat401A
+title: Welcome to STAT 401A
 tagline: Statistical Methods for Research Workers
 ---
 {% include JB/setup %}
 
 <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Bayes_icon.svg/200px-Bayes_icon.svg.png" align="right" />
-Instructor: [Jarad Niemi](http://jarad.me). TA: Fan Cao. This website is designed to hosts video lectures, labs, and post course discussions (questions and answers). 
+Instructor: [Jarad Niemi](http://jarad.me). TA: Fan Cao. This website is designed to hosts course material for [STAT 401A - Statistical Methods for Research Workers](http://catalog.iastate.edu/showcourse/?code=STAT-401&edition=2013-14) at [Iowa State University](http://www.iastate.edu).
 
 This course meets
 
