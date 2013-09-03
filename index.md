@@ -18,7 +18,7 @@ Office hours are
 - Instructor: MWF 9-10:30 @ Snedecor 2208
 - TA: R 3-5 @ Snedecor 2215
 
-The textbook for the course is The Statistical Sleuth (3rd edition) by Ramsey and Shafer.
+The textbook for the course is [The Statistical Sleuth (3rd ed)](http://www.amazon.com/gp/product/1133490670/ref=as_li_ss_tl?ie=UTF8&camp=1789&creative=390957&creativeASIN=1133490670&linkCode=as2&tag=jarnieassprod-20) by Ramsey and Shafer.
 
 ## Relevant course pages
 
@@ -26,6 +26,7 @@ The textbook for the course is The Statistical Sleuth (3rd edition) by Ramsey an
 - [Links]({{BASE_PATH}}/links.html)
 - [Homework]({{BASE_PATH}}/homework.html)
 - [Posts](http://jarad.me/categories.html#401a-ref)
+- [Videos]({{BASE_PATH}}/videos.html)
 
 ## Course Description
 
