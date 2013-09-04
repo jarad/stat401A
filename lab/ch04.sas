@@ -3,7 +3,7 @@
 /*****************************************************/
 
 DATA case0401;
-  INFILE 'U:/401A/sleuth3csv/case0401.csv' DELIMITER=',' FIRSTOBS=2;
+  INFILE 'case0401.csv' DELIMITER=',' FIRSTOBS=2;
   INPUT incidents launch $;
 
 /* Display 4.1 */
@@ -18,7 +18,7 @@ PROC NPAR1WAY DATA=case0401 SCORES=DATA;
   RUN;
 
 DATA case0402;
-  INFILE 'U:/401A/sleuth3csv/case0402.csv' DELIMITER=',' FIRSTOBS=2;
+  INFILE 'case0402.csv' DELIMITER=',' FIRSTOBS=2;
   INPUT time treatment $ censored;
 
 PROC NPAR1WAY DATA=case0402 WILCOXON HL;

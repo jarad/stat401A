@@ -3,7 +3,7 @@
 /*****************************************************/
 
 DATA case0301;
-  INFILE 'U:/401A/sleuth3csv/case0301.csv' DELIMITER=',' FIRSTOBS=2;
+  INFILE 'case0301.csv' DELIMITER=',' FIRSTOBS=2;
   INPUT rainfall treatment $;
   lrainfall = log(rainfall);
 
@@ -27,7 +27,7 @@ PROC TTEST DATA=case0301;
   RUN;
 
 DATA case0302;
-  INFILE 'U:/401A/sleuth3csv/case0302.csv' DELIMITER=',' FIRSTOBS=2;
+  INFILE 'case0302.csv' DELIMITER=',' FIRSTOBS=2;
   INPUT dioxin veteran $;
 
 /* Display 3.3 */

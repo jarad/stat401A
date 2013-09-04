@@ -1,4 +1,4 @@
-case0201 = read.csv('U:/401A/sleuth3csv/case0201.csv')
+case0201 = read.csv('case0201.csv')
 names(case0201) = tolower(names(case0201))
 
 # Something like Display 2.1, see the boxplots 
@@ -12,7 +12,7 @@ boxplot(depth~year, case0201)
 t.test(depth~year, case0201, var.equal=TRUE)
 
 
-case0202 = read.csv('U:/401A/sleuth3csv/case0202.csv')
+case0202 = read.csv('case0202.csv')
 names(case0202) = tolower(names(case0202)) 
 case0202$diff = case0202$unaffected-case0202$affected
 

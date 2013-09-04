@@ -1,5 +1,5 @@
 DATA case0201;
-  INFILE 'U:/401A/sleuth3csv/case0201.csv' DELIMITER=',' FIRSTOBS=2;
+  INFILE 'case0201.csv' DELIMITER=',' FIRSTOBS=2;
   INPUT year depth;
 
 PROC PRINT DATA=case0201;
@@ -19,7 +19,7 @@ PROC TTEST DATA=case0201;
 
 
 DATA case0202;
-  INFILE 'U:/401A/sleuth3csv/case0202.csv' DELIMITER=',' FIRSTOBS=2;
+  INFILE 'case0202.csv' DELIMITER=',' FIRSTOBS=2;
   INPUT unaffected affected;
   diff = unaffected-affected;
 

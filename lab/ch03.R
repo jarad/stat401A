@@ -2,7 +2,7 @@
 # Chapter 3                                         
 #######################################################
 
-case0301 = read.csv('U:/401A/sleuth3csv/case0301.csv')
+case0301 = read.csv('case0301.csv')
 names(case0301) = tolower(names(case0301))
 case0301$lrainfall = log(case0301$rainfall)
 
@@ -21,7 +21,7 @@ t
 exp(t$conf.int)
 
 
-case0302 = read.csv('U:/401A/sleuth3csv/case0302.csv')
+case0302 = read.csv('case0302.csv')
 names(case0302) = tolower(names(case0302))
 
 # Display 3.3
