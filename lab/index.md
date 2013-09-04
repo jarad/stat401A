@@ -12,6 +12,10 @@ With the exception of Lab 01, you should download and open up the scripts associ
   - Chapter 02: [SAS]({{BASE_PATH}}/lab/ch02.sas) or [R]({{BASE_PATH}}/lab/ch02.R)
   - Chapter 03: [SAS]({{BASE_PATH}}/lab/ch03.sas) or [R]({{BASE_PATH}}/lab/ch03.R)
   - Chapter 04: [SAS]({{BASE_PATH}}/lab/ch04.sas) or [R]({{BASE_PATH}}/lab/ch04.R)
+- Lab 03: anything we haven't finished previously
+- Lab 04: 
+  - Chapter 05: [SAS]({{BASE_PATH}}/lab/ch05.sas) or [R]({{BASE_PATH}}/lab/ch05.R)
+  - Chapter 06: [SAS]({{BASE_PATH}}/lab/ch06.sas) or [R]({{BASE_PATH}}/lab/ch06.R)
 
 
 
