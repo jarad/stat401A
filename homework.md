@@ -16,13 +16,13 @@ Solutions for many odd numbered problems in the Computational Exercises and Data
 
 ### Grading of homework
 
-Each homework will be graded in two parts. Each problem on the homework will randomly be assigned to a part with half of the problems in each part. 
+Each homework will be graded in two parts. Half (rounded down) of the problems on each homework will be graded for attempt while the remaining problems will be graded for accuracy. The grading scales for attempt and accuracy are given below:
 
-- Part 1: these problems will be graded on a 3 point scale for effort only
+- Attempt: these problems will be graded on a 3 point scale for effort only
   - 0 points: problem was not attempted
   - 1 point : problem was attempted but clearly not enough work was done
   - 2 points: enough work was done to have solved the problem
-- Part 2: these problems will be graded for accuracy on a scale from 0 to 2 depending on how accurate the solution is
+- Accuracy: these problems will be graded for accuracy on a scale from 0 to 2 depending on how accurate the solution is
 
 Each homework will get equal weight toward the overall homework grade for the course.
 
@@ -40,20 +40,13 @@ For those using the 2nd ed. of the book, scans of the 3rd ed. problems can be fo
 
 
 - HW1 (due 6 Sep): 1.17, 1.18, 1.19, 1.20
+- HW2 (due 13 Sep): 2.18, 3.24, 3.26, 4.20
+- HW3 (due 20 Sep): 2.23, 3.32, 4.21, 4.30
 
 
 
 <!---
 ## Previous semesters
-
-### Spring 2012
-
-- HW1: 2.12ab, 2.13a-e 
-- HW2: 4.25, 4.27, 5.17, 5.18, 5.21, 6.12, 6.13, 6.16
-- HW3: 7.23 (2nd ed), 7.22, 8.24, 8.25
-- HW4: 9.13, 9.15, 10.9, 10.10, 10.18
-- HW5: 11.10, 11.14, 11.22, 12.10, 12.11, 12.12, 12.21 (2nd ed), 13.12, 13.13, 13.14, 13.19
-- HW6: 20.9, 20.11, 20.15, 21.10, 21.11, 21.16, 22.18, 22.19, 22.23 
 
 ### Fall 2012
 
@@ -70,5 +63,15 @@ For those using the 2nd ed. of the book, scans of the 3rd ed. problems can be fo
 - HW11: 11.25, 12.21, analyze crops.csv
 - HW12: 20.9, 20.13, 21.12, 22.18, 22.19
 - HW13: 20.19, 21.18, 22.26
+
+### Spring 2012
+
+- HW1: 2.12ab, 2.13a-e 
+- HW2: 4.25, 4.27, 5.17, 5.18, 5.21, 6.12, 6.13, 6.16
+- HW3: 7.23 (2nd ed), 7.22, 8.24, 8.25
+- HW4: 9.13, 9.15, 10.9, 10.10, 10.18
+- HW5: 11.10, 11.14, 11.22, 12.10, 12.11, 12.12, 12.21 (2nd ed), 13.12, 13.13, 13.14, 13.19
+- HW6: 20.9, 20.11, 20.15, 21.10, 21.11, 21.16, 22.18, 22.19, 22.23 
+
 --->
 
