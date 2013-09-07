@@ -13,5 +13,8 @@ This page is meant to link [my STAT 401A youtube videos](http://www.youtube.com/
 - Chapter 2
   - [Two sample t-test](http://www.youtube.com/watch?v=anu13FU4Gow&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M1-Lec1-TwoSampleTtest.pdf))
   - [Paired t-test](http://www.youtube.com/watch?v=ycJEDoCdJ2M&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M1-Lec2-PairedTtest.pdf))
+- Chapter 3
+- Chapter 4
+  - [Rank Sum Test](http://www.youtube.com/watch?v=la_M-OJvmI8&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M1-Lec3-RankSumTest.pdf))
 
 
