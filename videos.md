@@ -16,6 +16,6 @@ This page is meant to link [my STAT 401A youtube videos](http://www.youtube.com/
 - Chapter 3
 - Chapter 4
   - [Rank Sum Test](http://www.youtube.com/watch?v=la_M-OJvmI8&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M1-Lec3-RankSumTest.pdf))
-  - [Sign and Signed Rank Tests](http://www.youtube.com/watch?v=9MoeQlFFIqU&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M1-Lec4-SignedRankTest.pdf)
+  - [Sign and Signed Rank Tests](http://www.youtube.com/watch?v=9MoeQlFFIqU&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M1-Lec4-SignedRankTest.pdf))
 
 
