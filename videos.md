@@ -11,6 +11,7 @@ This page is meant to link [my STAT 401A youtube videos](http://www.youtube.com/
   - [Statisticial Inference](http://youtu.be/lcfyx73cfCc) ([slides]({{BASE_PATH}}/slides/M0-Lec3-Inference.pdf))
   - [Randomization pvalues](http://youtu.be/Z-x31fpaDaI) ([slides]({{BASE_PATH}}/slides/M0-Lec4-Inference.pdf))
 - Chapter 2
+  - [Finding pvalues](http://www.youtube.com/watch?v=KWsCsHwb5-k&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M1-Lec5-FindingPvalues.pdf))
   - [Two sample t-test](http://www.youtube.com/watch?v=anu13FU4Gow&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M1-Lec1-TwoSampleTtest.pdf))
   - [Paired t-test](http://www.youtube.com/watch?v=ycJEDoCdJ2M&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M1-Lec2-PairedTtest.pdf))
 - Chapter 3
