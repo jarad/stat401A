@@ -9,7 +9,7 @@ On this page I hope to link to anything that will be relevant for STAT 401A spli
 
 ### Course related
 - [Course](http://jarad.github.com/stat401A)
-- [Book](http://www.science.oregonstate.edu/~schafer/Sleuth/)
+- [Book](http://www.science.oregonstate.edu/~schafer/Sleuth/) ([datasets](http://www.science.oregonstate.edu/~schafer/Sleuth/files/sleuth3csv.zip))
 - [Videos](http://www.youtube.com/jaradniemi)
 - RSS feeds
   - [Course posts](http://jarad.github.com/stat401a/atom.xml)
