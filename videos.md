@@ -15,7 +15,7 @@ This page is meant to link [my STAT 401A youtube videos](http://www.youtube.com/
   - [Two sample t-test](http://www.youtube.com/watch?v=anu13FU4Gow&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M1-Lec1-TwoSampleTtest.pdf))
   - [Paired t-test](http://www.youtube.com/watch?v=ycJEDoCdJ2M&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M1-Lec2-PairedTtest.pdf))
 - Chapter 3
-  - [Statistical modeling](http://www.youtube.com/watch?v=uLnoofIKE9w&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/1-Lec6-StatisticalModeling.pdf))
+  - [Statistical modeling](http://www.youtube.com/watch?v=uLnoofIKE9w&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M1-Lec6-StatisticalModeling.pdf))
 - Chapter 4
   - [Rank Sum Test](http://www.youtube.com/watch?v=la_M-OJvmI8&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M1-Lec3-RankSumTest.pdf))
   - [Sign and Signed Rank Tests](http://www.youtube.com/watch?v=9MoeQlFFIqU&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M1-Lec4-SignedRankTest.pdf))
