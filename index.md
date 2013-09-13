@@ -42,7 +42,7 @@ The course is being taught using a Team-Based Learning approach which involves e
 
 ## Prerequisite
 
-The prerequisite for the course is STAT 101, 104, 105, 201, or 226. 
+The prerequisite for the course is STAT [101](http://catalog.iastate.edu/showcourse/?code=STAT-101&edition=2013-14), [104](http://catalog.iastate.edu/showcourse/?code=STAT-104&edition=2013-14), [105](http://catalog.iastate.edu/showcourse/?code=STAT-105&edition=2013-14), [201](http://catalog.iastate.edu/showcourse/?code=STAT-201&edition=2013-14), or [226](http://catalog.iastate.edu/showcourse/?code=STAT-226&edition=2013-14). 
 
 ## Q&A
 
