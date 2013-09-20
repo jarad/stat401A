@@ -22,6 +22,7 @@ This page is meant to link [my STAT 401A youtube videos](http://www.youtube.com/
   - [Decision tree](http://www.youtube.com/watch?v=Z68V2N5G1us&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/decisionTree.pdf))
 - Chapter 5
   - [One-way ANOVA F-test](http://www.youtube.com/watch?v=SbFeXtg4b6A&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M2-Lec1-OnewayAnova.pdf))
+  - [General F-tests](http://www.youtube.com/watch?v=Zn2zevanDsY&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M2-Lec3-GeneralFtest.pdf))
 - Chapter 6
   - [Multiple Comparisons](http://www.youtube.com/watch?v=ZTCAzMsTCIs&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M2-Lec2-MultipleComparisons.pdf))
 
