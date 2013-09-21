@@ -24,6 +24,7 @@ This page is meant to link [my STAT 401A youtube videos](http://www.youtube.com/
   - [One-way ANOVA F-test](http://www.youtube.com/watch?v=SbFeXtg4b6A&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M2-Lec1-OnewayAnova.pdf))
   - [General F-tests](http://www.youtube.com/watch?v=Zn2zevanDsY&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M2-Lec3-GeneralFtest.pdf))
 - Chapter 6
+  - [Contrasts](http://www.youtube.com/watch?v=yq_yTWK4mNs&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M2-Lec4-Contrasts.pdf))
   - [Multiple Comparisons](http://www.youtube.com/watch?v=ZTCAzMsTCIs&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M2-Lec2-MultipleComparisons.pdf))
 
 
