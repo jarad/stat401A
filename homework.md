@@ -42,7 +42,11 @@ For those using the 2nd ed. of the book, scans of the 3rd ed. problems can be fo
 - HW1 (due 6 Sep): 1.17, 1.18, 1.19, 1.20
 - HW2 (due 13 Sep): 2.18, 3.24, 3.26, 4.20
 - HW3 (due 20 Sep): 2.23, 3.32, 4.21, 4.30
+- HW4 (due 27 Sep): 5.18, 5.22, 6.18, 6.20 
 
+<!---
+- HW5 (due 4 Oct): 5.24, 
+--->
 
 
 <!---
@@ -54,7 +58,7 @@ For those using the 2nd ed. of the book, scans of the 3rd ed. problems can be fo
 - HW2: 2.12, 2.15, 3.20, 3.22, 4.14, 4.17
 - HW3: 2.23, 3.33, 4.29, 4.31
 - HW4: 5.14, 5.17, 5.19, 6.12, 6.13, 6.16
-- HW5: 5.23, 5.24 (and ed), 6.23, 6.21 (2nd ed)
+- HW5: 5.23, 5.24 (2nd ed), 6.23, 6.21 (2nd ed)
 - HW6: hand calculate estimates, 7.12, 7.13, 7.14, 8.15, 8.16
 - HW7: 7.26, 7.29, 7.30, 8.25, 8.27, 8.29
 - HW8: 9.12, 9.13, 9.18, 10.11, 10.12, 10.23,
