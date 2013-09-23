@@ -25,7 +25,7 @@ PROC MEANS DATA=discrimination;
 PROC GLM DATA=discrimination;
   CLASS handicap;
   MODEL score = handicap / CLPARM;
-  ESTIMATE 'crutches+wheelchair - amputee+hearing' handicap -.5 .5 -.5 0 .5;
+  ESTIMATE 'crutches+wheelchair - amputee+hearing' handicap -1 1 -1 0 1 / DIVISOR=2;
   TITLE 'Compare to Display 6.4';
   RUN;
 
