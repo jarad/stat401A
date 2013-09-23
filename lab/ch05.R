@@ -7,11 +7,16 @@ head(mice,10)
 boxplot(lifetime~diet,mice, main="Compare to Display 5.1")
 
 # Compare to Display 5.2
-my.fun = function(x) {
-	return(round(c(length(x), min(x), max(x), mean(x), sd(x), 
-	               t.test(x)$conf.int[1:2]),1))
-}
-by(mice$lifetime, mice$diet, my.fun)
+library(plyr)
+sm = ddply(mice, .(diet), summarise,
+           n = length(lifetime),
+           min = min(lifetime),
+           max = max(lifetime),
+           mean = mean(lifetime),
+           sd = sd(lifetime))
+sm$ciL = sm$mean - qt(.025, sm$n)*sm$sd/sqrt(sm$n)
+sm$ciU = sm$mean + qt(.025, sm$n)*sm$sd/sqrt(sm$n)
+
 
 spock = read.csv("case0502.csv")
 names(spock) = tolower(names(spock))
