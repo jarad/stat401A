@@ -1,8 +1,8 @@
 ################### Displays from Chapter 6 ######################
-discrimination = read.csv("U:/401A/Sleuth Datasets/CSV/case0601.csv")
+discrimination = read.csv("case0601.csv")
 names(discrimination) = tolower(names(discrimination))
 
-fish = read.csv("U:/401A/Sleuth Datasets/CSV/case0602.csv")
+fish = read.csv("case0602.csv")
 names(fish) = tolower(names(fish))
 fish$percentage = fish$proportion*100
 

@@ -1,5 +1,5 @@
 ################### Displays from Chapter 5 ######################
-mice = read.csv("U:/401A/Sleuth Datasets/CSV/case0501.csv")
+mice = read.csv("case0501.csv")
 names(mice) = tolower(names(mice)) # makes variable names lower case
 
 head(mice,10)
@@ -13,7 +13,7 @@ my.fun = function(x) {
 }
 by(mice$lifetime, mice$diet, my.fun)
 
-spock = read.csv("U:/401A/Sleuth Datasets/CSV/case0502.csv")
+spock = read.csv("case0502.csv")
 names(spock) = tolower(names(spock))
 head(spock,10)
 
@@ -31,4 +31,9 @@ mod1 = lm(percent~others, spock)
 mod2 = lm(percent~judge, spock)
 anova(mod0,mod2)
 anova(mod0,mod1,mod2)
+
+
+# For homework
+plot(mod2)
+plot(predict(mod2), residuals(mod2))
 

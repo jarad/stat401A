@@ -1,11 +1,11 @@
 /* Creation of Displays from Chapter 6 */
 DATA discrimination;
-  INFILE 'U:\401A\Sleuth Datasets\CSV\case0601.csv' DELIMITER=',' FIRSTOBS=2;  
+  INFILE 'case0601.csv' DELIMITER=',' FIRSTOBS=2;  
   INPUT score handicap $;  
   RUN;
 
 DATA fish;
-  INFILE 'U:\401A\Sleuth Datasets\CSV\case0602.csv' DELIMITER=',' FIRSTOBS=2;  
+  INFILE 'case0602.csv' DELIMITER=',' FIRSTOBS=2;  
   INPUT proportion pair $ length; 
   percentage = proportion*100;
   RUN;
