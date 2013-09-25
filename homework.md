@@ -36,13 +36,29 @@ The code below is CC.PPzz where
 
 For example 9.7a-c refers to chapter 9, problem 7, parts a through c. The datasets for all problems can be found [here](http://www.science.oregonstate.edu/~schafer/Sleuth/files/sleuth3csv.zip).
 
-For those using the 2nd ed. of the book, scans of the 3rd ed. problems can be found here for chapters [1]({{BASE_PATH}}/homework/ch1.pdf), [2]({{BASE_PATH}}/homework/ch2.pdf), [3]({{BASE_PATH}}/homework/ch3.pdf), [4]({{BASE_PATH}}/homework/ch4.pdf), [5]({{BASE_PATH}}/homework/ch5.pdf), [6]({{BASE_PATH}}/homework/ch6.pdf), [7]({{BASE_PATH}}/homework/ch7.pdf), [8]({{BASE_PATH}}/homework/ch8.pdf), [9]({{BASE_PATH}}/homework/ch9.pdf), [10]({{BASE_PATH}}/homework/ch10.pdf), [11]({{BASE_PATH}}/homework/ch11.pdf), [12]({{BASE_PATH}}/homework/ch12.pdf), [13]({{BASE_PATH}}/homework/ch13.pdf), [20]({{BASE_PATH}}/homework/ch20.pdf), [21]({{BASE_PATH}}/homework/ch21.pdf), and [22]({{BASE_PATH}}/homework/ch22.pdf).
+For those using the 2nd ed. of the book, scans of the 3rd ed. problems can be found here for chapters 
+[1]({{BASE_PATH}}/homework/ch1.pdf), 
+[2]({{BASE_PATH}}/homework/ch2.pdf), 
+[3]({{BASE_PATH}}/homework/ch3.pdf),
+[4]({{BASE_PATH}}/homework/ch4.pdf), 
+[5]({{BASE_PATH}}/homework/ch5.pdf), 
+[6]({{BASE_PATH}}/homework/ch6.pdf), 
+[7]({{BASE_PATH}}/homework/ch7.pdf), 
+[8]({{BASE_PATH}}/homework/ch8.pdf), 
+[9]({{BASE_PATH}}/homework/ch9.pdf), 
+[10]({{BASE_PATH}}/homework/ch10.pdf), 
+[11]({{BASE_PATH}}/homework/ch11.pdf),
+[12]({{BASE_PATH}}/homework/ch12.pdf), 
+[13]({{BASE_PATH}}/homework/ch13.pdf), 
+[20]({{BASE_PATH}}/homework/ch20.pdf), 
+[21]({{BASE_PATH}}/homework/ch21.pdf), and 
+[22]({{BASE_PATH}}/homework/ch22.pdf).
 
 
 - HW1 (due 6 Sep): 1.17, 1.18, 1.19, 1.20
 - HW2 (due 13 Sep): 2.18, 3.24, 3.26, 4.20
 - HW3 (due 20 Sep): 2.23, 3.32, 4.21, 4.30
-- HW4 (due 27 Sep): 5.18, 5.22, 6.18, 6.20 
+- HW4 (due 27 Sep): 5.18, 5.22, 6.18, 6.20 ([qTable]({{BASE_PATH}}/slides/StudentizedRangeDistribution.pdf))
 
 <!---
 - HW5 (due 4 Oct): 5.24, 
