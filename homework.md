@@ -59,10 +59,7 @@ For those using the 2nd ed. of the book, scans of the 3rd ed. problems can be fo
 - HW2 (due 13 Sep): 2.18, 3.24, 3.26, 4.20
 - HW3 (due 20 Sep): 2.23, 3.32, 4.21, 4.30
 - HW4 (due 27 Sep): 5.18, 5.22, 6.18, 6.20 ([qTable]({{BASE_PATH}}/slides/StudentizedRangeDistribution.pdf))
-
-<!---
-- HW5 (due 4 Oct): 5.24, 
---->
+- HW5 (due 4 Oct): 5.24, 5.24 (2nd ed), 6.23, 6.21 (2nd ed)
 
 
 <!---
