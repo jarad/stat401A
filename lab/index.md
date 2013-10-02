@@ -18,6 +18,8 @@ With the exception of Lab 01, you should download and open up the scripts associ
 - Lab 04: 
   - Chapter 05: [SAS]({{BASE_PATH}}/lab/ch05.sas) or [R]({{BASE_PATH}}/lab/ch05.R)
   - Chapter 06: [SAS]({{BASE_PATH}}/lab/ch06.sas) or [R]({{BASE_PATH}}/lab/ch06.R)
+- Lab 05: anything we haven't finished previously
+
 
 
 
