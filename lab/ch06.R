@@ -35,6 +35,9 @@ confint(cont)
 pairwise.t.test(discrimination$score, discrimination$handicap, 
                 p.adjust="bonferroni")
 
+# In pairwise.t.test there is no p.adjust="tukey", instead use 
+TukeyHSD(aov(score~handicap, discrimination), "handicap")
+
 kruskal.test(lifetime~diet, mice)
 
 
