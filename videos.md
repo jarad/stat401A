@@ -26,5 +26,7 @@ This page is meant to link [my STAT 401A youtube videos](http://www.youtube.com/
 - Chapter 6
   - [Contrasts](http://www.youtube.com/watch?v=yq_yTWK4mNs&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M2-Lec4-Contrasts.pdf))
   - [Multiple Comparisons](http://www.youtube.com/watch?v=ZTCAzMsTCIs&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M2-Lec2-MultipleComparisons.pdf))
+- Chapter 7
+  - [Simple linear regression](http://www.youtube.com/watch?v=4Acpxwrlx8w&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M3-Lec1-SimpleLinearRegression.pdf))
 
 

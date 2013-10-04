@@ -40,7 +40,7 @@ PROC GLM DATA=fish;
 PROC GLM DATA=discrimination;
   CLASS handicap;
   MODEL score = handicap / CLPARM;
-  LSMEANS handicap / STDERR PDIFF CL ADJUST=T;          /* LSD, i.e. no adjustment */
+  LSMEANS handicap / STDERR PDIFF CL;          /* LSD, i.e. no adjustment */
   /* 
   LSMEANS handicap / STDERR PDIFF CL ADJUST=DUNNETT;
   LSMEANS handicap / STDERR PDIFF CL ADJUST=TUKEY;
