@@ -28,5 +28,6 @@ This page is meant to link [my STAT 401A youtube videos](http://www.youtube.com/
   - [Multiple Comparisons](http://www.youtube.com/watch?v=ZTCAzMsTCIs&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M2-Lec2-MultipleComparisons.pdf))
 - Chapter 7
   - [Simple linear regression](http://www.youtube.com/watch?v=4Acpxwrlx8w&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M3-Lec1-SimpleLinearRegression.pdf))
+  - [Lack-of-fit F-test](http://www.youtube.com/watch?v=6VhjGw90TB4&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M3-Lec2-LackOfFitTest.pdf))
 
 
