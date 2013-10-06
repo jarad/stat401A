@@ -30,5 +30,6 @@ This page is meant to link [my STAT 401A youtube videos](http://www.youtube.com/
   - [Simple linear regression](http://www.youtube.com/watch?v=4Acpxwrlx8w&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M3-Lec1-SimpleLinearRegression.pdf))
 - Chapter 8
   - [Lack-of-fit F-test](http://www.youtube.com/watch?v=6VhjGw90TB4&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M3-Lec2-LackOfFitTest.pdf))
+  - [Diagnostics](http://www.youtube.com/watch?v=wzCwyttwbgA&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M3-Lec3-RegressionDiagnostics.pdf))
 
 
