@@ -19,6 +19,11 @@ With the exception of Lab 01, you should download and open up the scripts associ
   - Chapter 05: [SAS]({{BASE_PATH}}/lab/ch05.sas) or [R]({{BASE_PATH}}/lab/ch05.R)
   - Chapter 06: [SAS]({{BASE_PATH}}/lab/ch06.sas) or [R]({{BASE_PATH}}/lab/ch06.R)
 - Lab 05: anything we haven't finished previously
+- Lab 06:
+  - Download [hypothetical.csv]({{BASE_PATH}}/lab/hypothetical.csv) to your sleuth3csv folder.
+  - Chapter 07: [SAS]({{BASE_PATH}}/lab/ch07.sas) or [R]({{BASE_PATH}}/lab/ch07.R)
+  - Chapter 08: [SAS]({{BASE_PATH}}/lab/ch08.sas) or [R]({{BASE_PATH}}/lab/ch08.R)
+
 
 
 
