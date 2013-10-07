@@ -44,6 +44,11 @@ DATA bigbang; SET bigbang;
   centered=velocity-373.125;
   RUN;
 
+PROC GLM DATA=bigbang;
+  MODEL distance = centered;
+  RUN;
+
+
 PROC PRINT DATA=bigbang; RUN;
 
 /* Sample correlation coefficient */
