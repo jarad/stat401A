@@ -15,6 +15,7 @@ pairs(TimeOfDeath)
 mod = lm(hypoxanthine~hours, 
          data  =TimeOfDeath,
          subset=hours<60)
+smmary(mod)
 
 # Diagnostic plots (this uses plot.lm implicitly)
 plot(mod, 1:6)
