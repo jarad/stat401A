@@ -24,7 +24,10 @@ With the exception of Lab 01, you should download and open up the scripts associ
   - Chapter 07: [SAS]({{BASE_PATH}}/lab/ch07.sas) or [R]({{BASE_PATH}}/lab/ch07.R)
   - Chapter 08: [SAS]({{BASE_PATH}}/lab/ch08.sas) or [R]({{BASE_PATH}}/lab/ch08.R)
 - Lab 07:
-  - Plotting in R using [TimeOfDeath.csv]({{BASE_PATH}}/lab/TimeOfDeath.csv): [R]({{BASE_PATH}}/lab/plotting.R) 
+  - Plotting in R using [TimeOfDeath.csv]({{BASE_PATH}}/lab/TimeOfDeath.csv): [R]({{BASE_PATH}}/lab/plotting.R)
+- Lab 08:
+  - Chapter 09: [SAS]({{BASE_PATH}}/lab/ch09.sas) or [R]({{BASE_PATH}}/lab/ch09.R) 
+  - Chapter 10: [SAS]({{BASE_PATH}}/lab/ch10.sas) or [R]({{BASE_PATH}}/lab/ch10.R) 
 
 
 

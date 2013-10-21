@@ -8,7 +8,7 @@ DATA case1001;
   heightcu = heightsq*height;
   RUN;
 
-  TITLE 'Compare to Display 10.7';
+TITLE 'Compare to Display 10.7';
 PROC REG;
   MODEL distance = height heightsq;
   MODEL distance = height250 height250sq;
@@ -27,7 +27,7 @@ PROC REG DATA=case1001;
 
 /******************************************************************************/
 DATA case1002;
-  INFILE 'U:/401A/Sleuth Datasets/CSV/case1002.csv' DSD FIRSTOBS=2;
+  INFILE 'case1002.csv' DSD FIRSTOBS=2;
   LENGTH type $ 30;
   INPUT mass type $ energy;
   lenergy = log(energy);
