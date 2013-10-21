@@ -6,14 +6,26 @@ DATA case0901;
   RUN;
              
 TITLE 'Compare to Display 9.3'; 
+SYMBOL1 VALUE=CIRCLE COLOR=BLACK;
+SYMBOL2 VALUE=DOT    COLOR=BLACK;
 PROC GPLOT;
   PLOT flowers*light=early;
-  RUN; QUIT;
+  RUN; 
 
 TITLE 'Compare to Display 9.14';
 PROC REG;
   MODEL flowers = light early lightXearly;
-  RUN; QUIT;
+  RUN; 
+
+PROC GLM;
+  MODEL flowers = light early light*early / SOLUTION;
+  RUN; 
+
+/* Include main effects plus the interaction */
+PROC GLM;
+  MODEL flowers = light|early / SOLUTION;
+  RUN; 
+
 
 /******************************************************************************/
 DATA case0902;

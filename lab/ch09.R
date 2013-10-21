@@ -12,7 +12,11 @@ legend("bottomleft", legend=c("late","early"), pch=c(1,19))
 mod = lm(flowers~light+early+lightXearly, case0901)
 summary(mod)
 
-mod = lm(flowers~light*early, case0901) # automatically create interaction
+mod = lm(flowers~light+early+light:early, case0901)
+sumary(mod)
+
+# Include main effects plus the interaction
+mod = lm(flowers~light*early, case0901) 
 summary(mod)
 
 
