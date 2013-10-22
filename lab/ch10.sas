@@ -51,18 +51,21 @@ PROC REG;
 TITLE 'Compare to Display 10.12';
 PROC GLM;
   MODEL lenergy = lmass bird ebat lmass*bird lmass*ebat;
-  RUN; QUIT;
+  RUN; 
 
+/* SAS can run the F-test for you */
+/* look at the lmass*type line in the Type III SS table */
 PROC GLM;
-  MODEL lenergy = lmass bird ebat;
-  RUN; QUIT;
+  CLASS type(ref='non-echolocating bats');
+  MODEL lenergy = lmass|type;
+  RUN; 
 
 TITLE 'Compare to Display 10.15';
-PROC GLM DATA=case1002; 
-  MODEL lenergy = lmass bird ebat;
-  ESTIMATE 'Birds minus echolocating bats' bird 1 ebat -1;
-  RUN; QUIT;
-
+PROC GLM DATA=case1002;
+  CLASS type(ref='non-echolocating bats');
+  MODEL lenergy = lmass type;
+  ESTIMATE 'Birds minus echolocating bats' type -1 1 0;
+  RUN; 
 
 
 /******************************************************************************/
@@ -81,7 +84,6 @@ PROC ANOVA DATA=diet;
 /* Run regression using PROC REG */
 /* PROC REG requires you to manually create indicator variables */
 DATA diet; SET diet;
-  IF diet='NP' THEN diet='zNP';
   IF diet='N/N85' THEN ind1=1; ELSE ind1=0;
   IF diet='N/R40' THEN ind2=1; ELSE ind2=0;
   IF diet='N/R50' THEN ind3=1; ELSE ind3=0;
@@ -96,7 +98,7 @@ PROC REG DATA=diet;
 /* Run regression using PROC GLM */
 /* PROC GLM creates indicator variables for you */
 PROC GLM DATA=diet;
-  CLASS diet;
+  CLASS diet(ref='NP');;
   MODEL lifetime = diet / SOLUTION;
   RUN;
 
