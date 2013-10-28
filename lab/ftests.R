@@ -51,4 +51,13 @@ library(lsmeans) # install.packages("lsmeans")
 lsmeans(full, specs=pairwise~group, at=list(x=0))
 lsmeans(full, specs=pairwise~group, at=list(x=1))
 
+interaction = lm(y~group*x, d)
+lsmeans(interaction, specs=pairwise~group, at=list(x=0))
+lsmeans(interaction, specs=pairwise~group, at=list(x=1))
+
+# The Warning message produced here is important. 
+# We are safe here because we have specified a value for x, but
+# the code below does not and is probably not what we wanted.
+lsmeans(interaction, specs=pairwise~group)
+
 
