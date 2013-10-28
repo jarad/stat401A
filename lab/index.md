@@ -28,6 +28,8 @@ With the exception of Lab 01, you should download and open up the scripts associ
 - Lab 08:
   - Chapter 09: [SAS]({{BASE_PATH}}/lab/ch09.sas) or [R]({{BASE_PATH}}/lab/ch09.R) 
   - Chapter 10: [SAS]({{BASE_PATH}}/lab/ch10.sas) or [R]({{BASE_PATH}}/lab/ch10.R) 
+- Lab 09;
+  - F-tests and contrasts: [SAS]({{BASE_PATH}}/lab/ftests.sas) or [R]({{BASE_PATH}}/lab/ftests.R) 
 
 
 
