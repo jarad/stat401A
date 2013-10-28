@@ -46,8 +46,7 @@ TITLE '10.2.3 Contrasts';
 /* What if we wanted to know 
   1) the difference between Maternal and Paternal,
   2) the Maternal mean, 
-  3) the Maternal mean at x=1, 
-  4) the difference between Maternal and Paternal at x=0, or
+  3) the Maternal mean at x=1, or 
   5) the difference between Maternal and Paternal at x=1? 
 */
 
