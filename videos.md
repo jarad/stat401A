@@ -37,4 +37,6 @@ This page is meant to link [my STAT 401A youtube videos](http://www.youtube.com/
 - Chapter 10
 - Chapter 11
   - [Case Statistics](http://www.youtube.com/watch?v=uDMj7SXfJWI&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M5-Lec1-CaseStatistics.pdf))
+- Chapter 12
+  - [Variable Selection]() ([slides]({{BASE_PATH}}/slides/M5-Lec2-VariableSelection.pdf))
 
