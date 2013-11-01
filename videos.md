@@ -34,4 +34,7 @@ This page is meant to link [my STAT 401A youtube videos](http://www.youtube.com/
 - Chapter 9
   - [Multiple regression](http://www.youtube.com/watch?v=NAcnN9lRzaU&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M4-Lec1-MultipleRegression.pdf)) 
   - [Dummy variables / indicator functions](http://youtu.be/pNPRo-VXuCo) ([slides]({{BASE_PATH}}/slides/M4-Lec2-MultipleRegression2.pdf)) 
+- Chapter 10
+- Chapter 11
+  - [Case Statistics](http://www.youtube.com/watch?v=uDMj7SXfJWI&feature=youtube_gdata) ([slides]({{BASE_PATH}}/slides/M5-Lec1-CaseStatistics.pdf))
 
