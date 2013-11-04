@@ -17,9 +17,9 @@ PROC SGPLOT;
   RUN;
 
 TITLE2 'Compare to Display 11.9';
-PROC GLM DATA=case1101;
+PROC GLM DATA=case1101 PLOTS=(diagnostics residuals);
   CLASS sex alcohol;
-  MODEL metabolism = activity|sex|alcohol; 
+  MODEL metabolism = activity|sex|alcohol / SOLUTION; 
   OUTPUT OUT=case1101Out R=resid P=predict;
   RUN; QUIT;
 
@@ -30,20 +30,15 @@ PROC GPLOT;
 
 PROC PRINT; RUN;
 
-DATA case1101Out; SET case1101Out;
-  KEEP=1;
-  IF subject=31 THEN KEEP=0;
-  IF subject=32 THEN KEEP=0;
-
 TITLE2 'Compare to Display 11.9';
-PROC GLM;
+PROC GLM DATA=case1101 PLOTS=(diagnostics residuals);
   CLASS sex alcohol;
-  MODEL metabolism = activity|sex|alcohol;
-  WHERE KEEP=1;
+  MODEL metabolism = activity|sex|alcohol / SOLUTION;
+  WHERE subject<31;
   RUN; QUIT;
 
 TITLE2 'Compare to Display 11.12';
-PROC GLM DATA=case1101 PLOTs=(diagnostics residuals);
+PROC GLM DATA=case1101 PLOTS=(diagnostics residuals);
   CLASS sex;
   MODEL metabolism = activity|sex;
   OUTPUT OUT=case1101Out2 R=resid P=predict STUDENT=student H=leverage COOKD=cookd;
@@ -77,7 +72,7 @@ PROC GPLOT;
   RUN; QUIT;
 
 
-PROC GLM;
+PROC GLM PLOTS=(diagnostics residuals);
   CLASS time treat days sex;
   MODEL response=time treat time*treat days sex weight loss tumor / SOLUTION;
   OUTPUT OUT=case1102Out R=resid P=predict;
@@ -86,6 +81,7 @@ PROC GLM;
 TITLE2 'Compare to Display 11.6';
 PROC GPLOT;
   PLOT resid*predict;
+  PLOT resid*i; /* not in display 11.6 */
   RUN;
 
 
@@ -98,7 +94,7 @@ DATA case0902;
   lbody  = log(body);
   RUN;
 
-PROC reg;
+PROC REG;
   MODEL lbrain = lgest lbody;
   OUTPUT OUT=case0902Out R=resid;
   RUN;
