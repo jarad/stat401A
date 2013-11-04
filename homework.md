@@ -63,6 +63,7 @@ For those using the 2nd ed. of the book, scans of the 3rd ed. problems can be fo
 - HW6 (due 14 Oct): 7.12, 7.13, 7.14, 7.28, 8.18, 8.22
 - HW7 (due 25 Oct): 9.15, 9.18, 10.10, 10.12
 - HW8 (due Nov 1): 9.20, 9.22, 10.24, 10.28
+- HW9 (due Nov 4): 11.10, 11.12, 12.10, 12.12
 
 
 <!---
