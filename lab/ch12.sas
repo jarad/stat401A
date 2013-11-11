@@ -34,3 +34,10 @@ PROC REG;
   RUN; QUIT;
 
 
+
+
+PROC GLMSELECT;
+  /* Can include a CLASS statement here which you cannot do in PROC REG */
+  MODEL sat=ltakers rank years income public expend / SELECTION=stepwise CHOOSE=SBC; 
+  RUN;
+
