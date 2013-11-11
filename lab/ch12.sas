@@ -29,7 +29,7 @@ PROC REG;
 
 TITLE2 'Compare to Display 12.9';
 PROC REG;
-  MODEL sat=ltakers rank years income public expend / SELECTION=Cp AIC BIC;
+  MODEL sat=ltakers rank years income public expend / SELECTION=Cp AIC SBC; /* SBC is our BIC */
   PLOT cp.*np. / CMALLOWS=blue VAXIS=0 to 10 BY 1;
   RUN; QUIT;
 
