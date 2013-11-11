@@ -6,6 +6,41 @@
 # Chapter 13                                                        #
 #####################################################################
 
+case1301 = read.csv("case1301.csv")
+names(case1301) = tolower(names(case1301))
+case1301$regratio = log(case1301$cover/(100-case1301$cover))
+summary(case1301)
+
+m = lm(regratio ~ block*treat, case1301)
+anova(m) # Compare to Display 13.10
+
+# Remove interaction
+m2 = lm(regratio ~ block+treat, case1301)
+anova(m2) # Compare to Display 13.11
+
+
+# Get order of levels in the categorical variables
+levels(case1301$block)
+levels(case1301$treat)
+
+library(multcomp) 
+#                               C   f  fF   L  Lf  LfF
+K <- rbind('large fish'    = c( 0, -1,  1,  0, -1,  1)/2,     
+           'small fish'    = c(-1,  1,  0, -1,  1,  0)/2,
+           'limpits'       = c(-1, -1, -1,  1,  1,  1)/3,
+           'limpitsXsmall' = c( 2, -1, -1, -2,  1,  1)/4,
+           'limpitsXlarge' = c( 0,  1, -1,  0, -1,  1)/2)
+contrasts2 = glht(m2, linfct = mcp(treat=K))
+summary(contrasts2) # Compare to Display 13.13
+
+
+# This doesn't recover the same results...I'm not sure what is going on yet
+contrasts = glht(m, linfct = mcp(treat=K))
+summary(contrasts)
+
+
+
+
 ############################ Case 13.02 #############################
 case1302 = read.csv("case1302.csv")
 names(case1302) = tolower(names(case1302))
