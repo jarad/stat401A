@@ -12,13 +12,13 @@ DATA case1301;
 PROC PRINT; RUN;
 
 TITLE2 'Compare to Display 13.10';
-PROC anova;
+PROC ANOVA;
   CLASS block treat;
   MODEL regratio=block|treat;
   RUN;
 
 TITLE2 'Compare to Display 13.11';
-PROC anova;
+PROC ANOVA;
   CLASS block treat;
   MODEL regratio=block treat;
   RUN;
