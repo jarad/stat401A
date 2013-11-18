@@ -11,12 +11,12 @@ TITLE 'Mixed effect regression';
 TITLE2 'Results are the same as the paired t-test';
 DATA case0202alt;
   INFILE 'case0202_alt.csv' DSD FIRSTOBS=2;
-  INPUT volume affected $ individual;
+  INPUT volume schizophrenia $ twin;
 
 PROC MIXED DATA=case0202alt;
-  CLASS affected individual;
-  MODEL volume=affected / SOLUTION;
-  RANDOM individual;
+  CLASS schizophrenia twin;
+  MODEL volume=schizophrenia / SOLUTION;
+  RANDOM twin;
   RUN;
 
 TITLE 'Extending to more than 2 observations';
