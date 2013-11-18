@@ -65,7 +65,7 @@ For those using the 2nd ed. of the book, scans of the 3rd ed. problems can be fo
 - HW8 (due Nov 1): 9.20, 9.22, 10.24, 10.28
 - HW9 (due Nov 8): 11.10, 11.12, 12.10, 12.12
 - HW10 (due Nov 15): 11.22, 12.21, 13.12, 13.18
-
+- HW11 (due Nov 22): 13.19, 13.21, 13.22
 
 <!---
 ## Previous semesters
