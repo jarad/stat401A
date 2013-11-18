@@ -11,7 +11,7 @@ names(case0202alt) = tolower(names(case0202alt))
 
 # install.packages("lme4")
 library(lme4)
-m = lmer(volume~schizophrenia+(1|individual), case0202alt)
+m = lmer(volume~schizophrenia+(1|twin), case0202alt)
 summary(m)
 
 
