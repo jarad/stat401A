@@ -29,6 +29,17 @@ PROC GLM;
   ESTIMATE 'limpitsXlarge' treat  0  0 -1   1  1 -1 / DIVISOR=2;
   RUN;
 
+
+
+/* Use of LSMEANS even in a model with the interaction */
+PROC GLM;
+  CLASS block treat;
+  MODEL regratio = block|treat;
+  LSMEANS treat / CL PDIFF;       /* marginal    treatment differences */
+  LSMEANS block*treat / CL PDIFF; /* conditional treatment differences */
+  RUN;
+
+
 TITLE 'Case 13.02';
 DATA case1302;
   INFILE 'case1302.csv' DSD FIRSTOBS=2;
