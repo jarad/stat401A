@@ -4,21 +4,21 @@ case2001 = read.csv("case2001.csv")
 names(case2001) = tolower(names(case2001))
 case2001 # Compare to Display 20.1
 
-mod = glm(status=="SURVIVED" ~ age*sex,binomial, case2001)
+mod = glm(status=="Survived" ~ age*sex,binomial, case2001)
 summary(mod) # compare to Display 20.5
 
-mod = glm(status=="SURVIVED" ~ age+sex,binomial, case2001)
+mod = glm(status=="Survived" ~ age+sex,binomial, case2001)
 summary(mod) # compare to Display 20.6
 
-mod = glm(status=="SURVIVED" ~ age*sex+sex*I(age^2),binomial, case2001)
+mod = glm(status=="Survived" ~ age*sex+sex*I(age^2),binomial, case2001)
 summary(mod) # compare to Display 20.8
 
 ch = rep(NA, nrow(case2001))
-ch[case2001$sex=="FEMALE"] = 17
-ch[case2001$sex=="MALE"] = 1
+ch[case2001$sex=="Female"] = 17
+ch[case2001$sex=="Male"] = 1
 
 set.seed(1)
-mod = glm(status=="SURVIVED" ~ age+sex,binomial, case2001)
+mod = glm(status=="Survived" ~ age+sex,binomial, case2001)
 plot(jitter(as.numeric(status)-1,.1)~age, case2001, pch=ch,
      ylab="Survived", yaxt='n', main="Compare to Display 20.9")
 axis(2,c(0,1),c("No","Yes"))
