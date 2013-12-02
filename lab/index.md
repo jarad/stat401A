@@ -37,6 +37,11 @@ With the exception of Lab 01, you should download and open up the scripts associ
   - Chapter 13: [SAS]({{BASE_PATH}}/lab/ch13.sas) or [R]({{BASE_PATH}}/lab/ch13.R) 
 - Lab 12
   - Random effects using [case0202_alt.csv]({{BASE_PATH}}/lab/case0202_alt.csv): [SAS]({{BASE_PATH}}/lab/random.sas) or [R]({{BASE_PATH}}/lab/random.R)
+- Lab 13
+  - Chapter 20: [SAS]({{BASE_PATH}}/lab/ch20.sas) or [R]({{BASE_PATH}}/lab/ch20.R) 
+  - Chapter 21: [SAS]({{BASE_PATH}}/lab/ch21.sas) or [R]({{BASE_PATH}}/lab/ch21.R) 
+  - Chapter 22: [SAS]({{BASE_PATH}}/lab/ch22.sas) or [R]({{BASE_PATH}}/lab/ch22.R) 
+
 
 
 
