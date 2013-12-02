@@ -35,6 +35,7 @@ text(20,.4,"Males")
 
 case2002 = read.csv("case2002.csv")
 names(case2002) = tolower(names(case2002))
+names(case2002)[2] = "sex" # fm -> sex
 case2002 # Compare to Display 20.2
 
 mod = glm(lc~sex+ag+ss+yr+bk, binomial, case2002)
