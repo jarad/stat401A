@@ -42,7 +42,7 @@ TITLE 'Compare to Display 21.8 (full MODEL)';
 PROC GENMOD;
   CLASS morph;
   MODEL removed/placed = morph distance morph*distance / DIST=binomial;
-  OUTPUT OUT=case2102Out P=predict RESDEV=devres COOKD=COOKD;
+  OUTPUT OUT=case2102Out P=predict RESDEV=devres COOKD=cookd;
   RUN;
 
 TITLE 'Compare to Display 21.8 (reduced MODEL)';
@@ -57,7 +57,7 @@ DATA case2102Out; SET case2102Out;
   RUN;
 
 PROC GPLOT;
-  PLOT COOKD*predict;
+  PLOT cookd*predict;
   RUN;
 
 TITLE 'Compare to Display 21.9';
