@@ -51,10 +51,10 @@ mod = glm(lc~sex+ag+ss+yr*cd+I(yr^2)+I(cd^2)+bk, binomial, case2002)
 summary(mod)
 
 ch = rep(NA,nrow(case2002))
-ch[case2002$bk=="BIRD" & case2002$lc=="LUNGCANCER"] = 17
-ch[case2002$bk=="NOBIRD" & case2002$lc=="LUNGCANCER"] = 19
-ch[case2002$bk=="BIRD" & case2002$lc=="NOCANCER"] = 2
-ch[case2002$bk=="NOBIRD" & case2002$lc=="NOCANCER"] = 1
+ch[case2002$bk=="Bird" & case2002$lc=="LungCancer"] = 17
+ch[case2002$bk=="NoBird" & case2002$lc=="LungCancer"] = 19
+ch[case2002$bk=="Bird" & case2002$lc=="NoCancer"] = 2
+ch[case2002$bk=="NoBird" & case2002$lc=="NoCancer"] = 1
 
 plot(yr~ag, case2002, pch=ch, main="Compare to Display 20.10")
 legend("topleft", c("Bird, Cancer","--, Cancer","Bird,--","--,--"),
