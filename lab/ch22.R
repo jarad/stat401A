@@ -10,10 +10,10 @@ plot(matings~age, case2201, main="Compare to Display 22.2")
 mod = glm(matings~age+I(age^2), poisson, case2201)
 summary(mod) # Compare to Display 22.6
 
-mod = glm(matings~age         , poisson, case2201)
-summary(mod) # Compare to Display 22.8
+mod1 = glm(matings~age         , poisson, case2201)
+summary(mod1) # Compare to Display 22.8
 
-
+anova(mod, mod1, test="Chi") # Drop-in-deviance test
 
 ######################## Case 22.02 ##############################
 
