@@ -22,7 +22,10 @@ PROC GENMOD;
   MODEL matings = age         / DIST=poisson;
   RUN;
 
-
+TITLE 'Drop-in-deviance test for quadratic term';
+PROC IML;
+  p = 1-CDF('Chisquare',51.0116-50.8262,1);
+  PRINT p;
 
 TITLE 'Case 22.02';
 DATA case2202;

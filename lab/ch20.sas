@@ -21,6 +21,11 @@ PROC GENMOD;
   MODEL survived = age female / DIST=binomial;
   RUN;
 
+TITLE 'Drop-in-deviance test for interaction';
+PROC IML;
+  p = 1-CDF('Chisquare',2*25.6281-2*23.6732,1);
+  PRINT p;
+
 TITLE ' Compare to Display 20.8';
 PROC GENMOD;
   MODEL survived = female age female*age age*age female*age*age / DIST=binomial;

@@ -4,11 +4,14 @@ case2001 = read.csv("case2001.csv")
 names(case2001) = tolower(names(case2001))
 case2001 # Compare to Display 20.1
 
-mod = glm(status=="Survived" ~ age*sex,binomial, case2001)
-summary(mod) # compare to Display 20.5
+modf = glm(status=="Survived" ~ age*sex,binomial, case2001)
+summary(modf) # compare to Display 20.5
 
-mod = glm(status=="Survived" ~ age+sex,binomial, case2001)
-summary(mod) # compare to Display 20.6
+modr = glm(status=="Survived" ~ age+sex,binomial, case2001)
+summary(modr) # compare to Display 20.6
+
+# Drop-in-deviance test for interaction
+anova(modr, modf, test="Chi")
 
 mod = glm(status=="Survived" ~ age*sex+sex*I(age^2),binomial, case2001)
 summary(mod) # compare to Display 20.8

@@ -48,8 +48,15 @@ lines(case2102$distance[case2102$morph=="light"], case2102$logit[case2102$morph=
 
 
 
-mod = glm(cbind(removed,placed-removed) ~ morph*distance, binomial, case2102)
-summary(mod) # Compare to Display 21.8 (full model)
+modf = glm(cbind(removed,placed-removed) ~ morph*distance, binomial, case2102)
+summary(modf) # Compare to Display 21.8 (full model)
+
+modr = glm(cbind(removed,placed-removed) ~ morph*distance, binomial, case2102)
+summary(modr) # Compare to Display 21.8 (full model)
+
+# Drop-in-deviance test for interaction
+anova(modr, modf, test="Chi")
+
 
 case2102$proportion = case2102$removed/case2102$placed
 

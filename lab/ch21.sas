@@ -51,6 +51,11 @@ PROC GENMOD;
   MODEL removed/placed = morph distance                / DIST=binomial;
   RUN;
 
+TITLE 'Drop-in-deviance test for interaction';
+PROC IML;
+  p = 1-CDF('Chisquare',25.1614-13.2299,1);
+  PRINT p;
+
 TITLE 'Compare to Display 21.5';
 DATA case2102Out; SET case2102Out;
   proportion = removed/placed;
