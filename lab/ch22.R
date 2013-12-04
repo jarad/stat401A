@@ -16,6 +16,9 @@ summary(modr) # Compare to Display 22.8
 # Drop-in-deviance test for squared term
 anova(modr, modf, test="Chi") 
 
+# Lack-of-fit test
+1-pchisq(modr$deviance, modr$df.residual)
+
 ######################## Case 22.02 ##############################
 
 case2202 = read.csv("case2202.csv")

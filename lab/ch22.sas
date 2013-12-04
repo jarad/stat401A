@@ -27,6 +27,11 @@ PROC IML;
   p = 1-CDF('Chisquare',51.0116-50.8262,1);
   PRINT p;
 
+TITLE 'Lack-of-fit test for reduced model';
+PROC IML;
+  p = 1-CDF('Chisquare', 51.0116, 39);
+  PRINT p;
+
 TITLE 'Case 22.02';
 DATA case2202;
   INFILE 'case2202.csv' DSD FIRSTOBS=2;
