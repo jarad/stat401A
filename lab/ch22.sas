@@ -49,7 +49,7 @@ DATA case2202; SET case2202;
   IF pctcover>70 THEN closure=1; ELSE closure=0;
 
 TITLE 'Compare to Display 22.7 AND Display 22.10 (full MODEL)';
-PROC GENMOD;
+PROC GENMOD PLOTS=ALL;
   MODEL salamanders = forestage forestage*forestage
                       pctcover pctcover*pctcover forestage*pctcover 
                       closure
